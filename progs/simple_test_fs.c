@@ -5,8 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// TODO: Rewrite these tests to not depend on an extant disk.fs with particular
-// files in it
+// File created by Cameron Fitzpatrick and Hunter Kennedy
 static void test_mount_unmount(void){
 	assert(-1 == fs_umount());
 	fs_mount("disk.fs");
