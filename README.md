@@ -23,8 +23,8 @@ is located in fs.h and you can simply create a program
 in progs and use it. You MUST add this program to the  
 makefile in progs, along with the other programs.  
 As such:   `# Target programs
-programs := test_fs.x \  
-	simple_test_fs.x \  
-  new_program1.x \
-  new_program2.x \
-  etc.` 
+programs := test_fs.x \`  
+	`simple_test_fs.x \  
+  new_program1.x \`  
+  `new_program2.x \
+  etc.`  
